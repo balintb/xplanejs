@@ -1,0 +1,22 @@
+{
+  "name": "xplane",
+  "version": "0.0.1",
+  "author": "balintb",
+  "description": "XPlane data module for Node.js",
+  "keywords": ["xplane", "x-plane"],
+  "dependencies": {
+    "async": "~0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/balintb/xplanejs"
+  },
+  "bugs": {
+    "url": "https://github.com/balintb/xplanejs/issues"
+  },
+  "main": "lib/xplane.js",
+  "engines": { 
+    "node": ">= 0.10.0" 
+  },
+  "license": "MIT"
+}
