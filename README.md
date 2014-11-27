@@ -7,7 +7,7 @@ xplanejs is a Node.js module for data transfer to/from [X-Plane](http://www.x-pl
 A simple example can be found in the `examples/` folder. Either access the stored data directly or listen for events.
 
 ```javascript
-var XPlane = require('xplane'),
+var XPlane = require('xplane')
   , xplane = new XPlane({
     port: {
       in: 49000 // default port for X-Plane UDP data
