@@ -96,7 +96,10 @@ var XTypes = {
   37: {
     name: 'enginerpm',
     data: [
-      { name: 'rpm', type: 'float' }
+      { name: 'rpm1', type: 'float' },
+      { name: 'rpm2', type: 'float' },
+      { name: 'rpm3', type: 'float' },
+      { name: 'rpm4', type: 'float' }
     ]
   },
   64: {
