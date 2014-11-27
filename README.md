@@ -31,6 +31,14 @@ XTypes are defined in [data/xtypes.js](data/xtypes.js). They can be accessed on-
 
 The current list of XTypes:
 
+- `time`
+  - `real` - [s]
+  - `total` - [s]
+  - `mission` - [s]
+  - `timer` - [s]
+  - `zulu` - [hh.ss]
+  - `local` - [hh.ss]
+  - `hobbs`
 - `airspeed`
   - `indicated` - KIAS [kts]
   - `equivalent` - KEAS [kts]

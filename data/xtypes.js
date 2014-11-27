@@ -1,4 +1,17 @@
 var XTypes = {
+  1: {
+    name: 'time',
+    data: [
+      { name: 'real', type: 'float' },
+      { name: 'total', type: 'float' },
+      { name: 'mission', type: 'float' },
+      { name: 'timer', type: 'float' },
+      { type: 'pad', length: 4 },
+      { name: 'zulu', type: 'float' },
+      { name: 'local', type: 'float' },
+      { name: 'hobbs', type: 'float' }
+    ]
+  },
   3: {
     name: 'airspeed',
     data: [
