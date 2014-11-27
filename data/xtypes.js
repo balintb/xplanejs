@@ -288,6 +288,45 @@ var XTypes = {
       { name: '8', type: 'float' }
     ]
   },
+  49: {
+    name: 'oilpressure',
+    data: [
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
+    ]
+  },
+  50: {
+    name: 'oiltemp',
+    data: [
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
+    ]
+  },
+  51: {
+    name: 'fuelpressure',
+    data: [
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
+    ]
+  },
   64: {
     name: 'aeroforce',
     data: [

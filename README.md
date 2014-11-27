@@ -90,7 +90,7 @@ The current list of XTypes:
 - `throttleactual`
   - `[1..8]`
 - `enginepower`
-  - `[1..8]`
+  - `[1..8]` - [hp]
 - `enginethrust`
   - `[1..8]`
 - `enginetorque`
@@ -116,6 +116,12 @@ The current list of XTypes:
   - `8`
 - `cht`
   - `[1..8]` - [deg]
+- `oilpressure`
+  - `[1..8]` - [psi]
+- `oiltemp`
+  - `[1..8]` - [deg]
+- `fuelpressure`
+  - `[1..8]` - [psi]
 - `aeroforce`
   - `lift` - [lb]
   - `drag` - [lb]
