@@ -132,6 +132,32 @@ var XTypes = {
       { name: 'rpm8', type: 'float' }
     ]
   },
+  38: {
+    name: 'proprpm',
+    data: [
+      { name: 'rpm1', type: 'float' },
+      { name: 'rpm2', type: 'float' },
+      { name: 'rpm3', type: 'float' },
+      { name: 'rpm4', type: 'float' },
+      { name: 'rpm5', type: 'float' },
+      { name: 'rpm6', type: 'float' },
+      { name: 'rpm7', type: 'float' },
+      { name: 'rpm8', type: 'float' }
+    ]
+  },
+  39: {
+    name: 'proppitch',
+    data: [
+      { name: 'pitch1', type: 'float' },
+      { name: 'pitch2', type: 'float' },
+      { name: 'pitch3', type: 'float' },
+      { name: 'pitch4', type: 'float' },
+      { name: 'pitch5', type: 'float' },
+      { name: 'pitch6', type: 'float' },
+      { name: 'pitch7', type: 'float' },
+      { name: 'pitch8', type: 'float' }
+    ]
+  },
   64: {
     name: 'aeroforce',
     data: [
