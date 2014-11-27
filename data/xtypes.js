@@ -96,66 +96,196 @@ var XTypes = {
   25: {
     name: 'throttlecommand',
     data: [
-      { name: 'cmd1', type: 'float' },
-      { name: 'cmd2', type: 'float' },
-      { name: 'cmd3', type: 'float' },
-      { name: 'cmd4', type: 'float' },
-      { name: 'cmd5', type: 'float' },
-      { name: 'cmd6', type: 'float' },
-      { name: 'cmd7', type: 'float' },
-      { name: 'cmd8', type: 'float' }
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
     ]
   },
   26: {
     name: 'throttleactual',
     data: [
-      { name: 'act1', type: 'float' },
-      { name: 'act2', type: 'float' },
-      { name: 'act3', type: 'float' },
-      { name: 'act4', type: 'float' },
-      { name: 'act5', type: 'float' },
-      { name: 'act6', type: 'float' },
-      { name: 'act7', type: 'float' },
-      { name: 'act8', type: 'float' }
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
+    ]
+  },
+  34: {
+    name: 'enginepower',
+    data: [
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
+    ]
+  },
+  35: {
+    name: 'enginethrust',
+    data: [
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
+    ]
+  },
+  36: {
+    name: 'enginetorque',
+    data: [
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
     ]
   },
   37: {
     name: 'enginerpm',
     data: [
-      { name: 'rpm1', type: 'float' },
-      { name: 'rpm2', type: 'float' },
-      { name: 'rpm3', type: 'float' },
-      { name: 'rpm4', type: 'float' },
-      { name: 'rpm5', type: 'float' },
-      { name: 'rpm6', type: 'float' },
-      { name: 'rpm7', type: 'float' },
-      { name: 'rpm8', type: 'float' }
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
     ]
   },
   38: {
     name: 'proprpm',
     data: [
-      { name: 'rpm1', type: 'float' },
-      { name: 'rpm2', type: 'float' },
-      { name: 'rpm3', type: 'float' },
-      { name: 'rpm4', type: 'float' },
-      { name: 'rpm5', type: 'float' },
-      { name: 'rpm6', type: 'float' },
-      { name: 'rpm7', type: 'float' },
-      { name: 'rpm8', type: 'float' }
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
     ]
   },
   39: {
     name: 'proppitch',
     data: [
-      { name: 'pitch1', type: 'float' },
-      { name: 'pitch2', type: 'float' },
-      { name: 'pitch3', type: 'float' },
-      { name: 'pitch4', type: 'float' },
-      { name: 'pitch5', type: 'float' },
-      { name: 'pitch6', type: 'float' },
-      { name: 'pitch7', type: 'float' },
-      { name: 'pitch8', type: 'float' }
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
+    ]
+  },
+  40: {
+    name: 'enginewash',
+    data: [
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
+    ]
+  },
+  41: {
+    name: 'n1',
+    data: [
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
+    ]
+  },
+  42: {
+    name: 'n2',
+    data: [
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
+    ]
+  },
+  45: {
+    name: 'fuelflow',
+    data: [
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
+    ]
+  },
+  46: {
+    name: 'itt',
+    data: [
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
+    ]
+  },
+  47: {
+    name: 'egt',
+    data: [
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
+    ]
+  },
+  48: {
+    name: 'cht',
+    data: [
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' },
+      { name: '4', type: 'float' },
+      { name: '5', type: 'float' },
+      { name: '6', type: 'float' },
+      { name: '7', type: 'float' },
+      { name: '8', type: 'float' }
     ]
   },
   64: {

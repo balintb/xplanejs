@@ -85,11 +85,37 @@ The current list of XTypes:
   - `vz` - [m/s]
   - `distft` - [ft]
   - `distnm` - [nm]
+- `throttlecommand`
+  - `[1..8]`
+- `throttleactual`
+  - `[1..8]`
+- `enginepower`
+  - `[1..8]`
+- `enginethrust`
+  - `[1..8]`
+- `enginetorque`
+  - `[1..8]`
 - `enginerpm`
-  - `rpm1` - [r/m]
-  - `rpm2` - [r/m]
-  - `rpm3` - [r/m]
-  - `rpm4` - [r/m]
+  - `[1..8]`
+- `proprpm`
+  - `[1..8]`
+- `proppitch`
+  - `[1..8]`
+- `enginewash` - propwash or jetwash
+  - `[1..8]` - [kts]
+- `n1` - turbine N1 %
+  - `[1..8]` - [%]
+- `n2` - turbine N2 %
+  - `[1..8]` - [%]
+- `fuelflow`
+  - `[1..8]` - [lb/h]
+- `itt`
+  - `[1..8]` - [deg]
+- `egt`
+  - `[1..8]` - [deg]
+  - `8`
+- `cht`
+  - `[1..8]` - [deg]
 - `aeroforce`
   - `lift` - [lb]
   - `drag` - [lb]
@@ -98,7 +124,6 @@ The current list of XTypes:
   - `normal` - [lb]
   - `axial` - [lb]
   - `side` - [lb]
-
 
 ### Development
 
