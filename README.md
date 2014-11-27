@@ -86,7 +86,10 @@ The current list of XTypes:
   - `distft` - [ft]
   - `distnm` - [nm]
 - `enginerpm`
-  - `rpm` - [r/m]
+  - `rpm1` - [r/m]
+  - `rpm2` - [r/m]
+  - `rpm3` - [r/m]
+  - `rpm4` - [r/m]
 - `aeroforce`
   - `lift` - [lb]
   - `drag` - [lb]
