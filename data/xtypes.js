@@ -93,13 +93,43 @@ var XTypes = {
       { name: 'distnm', type: 'float' }
     ]
   },
+  25: {
+    name: 'throttlecommand',
+    data: [
+      { name: 'cmd1', type: 'float' },
+      { name: 'cmd2', type: 'float' },
+      { name: 'cmd3', type: 'float' },
+      { name: 'cmd4', type: 'float' },
+      { name: 'cmd5', type: 'float' },
+      { name: 'cmd6', type: 'float' },
+      { name: 'cmd7', type: 'float' },
+      { name: 'cmd8', type: 'float' }
+    ]
+  },
+  26: {
+    name: 'throttleactual',
+    data: [
+      { name: 'act1', type: 'float' },
+      { name: 'act2', type: 'float' },
+      { name: 'act3', type: 'float' },
+      { name: 'act4', type: 'float' },
+      { name: 'act5', type: 'float' },
+      { name: 'act6', type: 'float' },
+      { name: 'act7', type: 'float' },
+      { name: 'act8', type: 'float' }
+    ]
+  },
   37: {
     name: 'enginerpm',
     data: [
       { name: 'rpm1', type: 'float' },
       { name: 'rpm2', type: 'float' },
       { name: 'rpm3', type: 'float' },
-      { name: 'rpm4', type: 'float' }
+      { name: 'rpm4', type: 'float' },
+      { name: 'rpm5', type: 'float' },
+      { name: 'rpm6', type: 'float' },
+      { name: 'rpm7', type: 'float' },
+      { name: 'rpm8', type: 'float' }
     ]
   },
   64: {
