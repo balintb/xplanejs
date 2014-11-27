@@ -13,14 +13,15 @@ var XTypes = {
     ]
   },
   4: {
-    name: 'velocity',
+    name: 'gload',
     data: [
       { name: 'mach', type: 'float' },
       { type: 'pad', length: 4 },
-      { name: 'vertical', type: 'float' },
+      { name: 'vvi', type: 'float' },
       { type: 'pad', length: 4 },
-      { name: 'vertg', type: 'float' },
-      { name: 'horizg', type: 'float' }
+      { name: 'normal', type: 'float' },
+      { name: 'axial', type: 'float' },
+      { name: 'side', type: 'float' }
     ]
   },
   17: {
