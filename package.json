@@ -1,6 +1,6 @@
 {
   "name": "xplane",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "balintb",
   "description": "XPlane data module for Node.js",
   "keywords": ["xplane", "x-plane"],

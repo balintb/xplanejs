@@ -28,27 +28,74 @@ To recieve data, you will need to set up X-Plane to send it. Head over to https:
 ### Data
 
 XTypes are defined in [data/xtypes.js](data/xtypes.js). They can be accessed on-demand from `XPlane.data.[xtype.name]`, or by listening to the `data.[xtype.name]` event.
+
 The current list of XTypes:
+
 - `airspeed`
-  - `indicated` - IAS
-  - `equivalent`
-  - `true` - TAS
-  - `truegnd` - GS
-  - `mph`
-  - `mphair`
-  - `mphgnd`
-- `velocity`
-  - `mach` - mach number
-  - `vertical` - VSI
-  - `vertg` - vertical G force
-  - `horizg` - horizontal force (needs clarification)
+  - `indicated` - KIAS [kts]
+  - `equivalent` - KEAS [kts]
+  - `true` - KTAS [kts]
+  - `truegnd` - KTGS [kts]
+  - `mph` - IAS [mph]
+  - `mphair` - [mph]
+  - `mphgnd` - [mph]
+- `gload`
+  - `mach` - Mach number [ratio]
+  - `vvi` - VVI [fpm]
+  - `normal`
+  - `axial`
+  - `side`
+- `angularmoment`
+  - `m` - [ftlb]
+  - `l` - [ftlb]
+  - `n` - [ftlb]
+- `angularvelocity`
+  - `q` - [rad/s]
+  - `p` - [rad/s]
+  - `r` - [rad/s]
 - `attitude`
-  - `pitch`
-  - `roll`
-  - `truehdg`
-  - `maghdg`
+  - `pitch` - [deg]
+  - `roll` - [deg]
+  - `truehdg` - [deg]
+  - `maghdg` - [deg]
+- `aoa`
+  - `alpha` - [deg]
+  - `beta` - [deg]
+  - `hpath` - [deg]
+  - `vpath` - [deg]
+  - `slip` - [deg]
+- `compass`
+  - `mag` - [comp]
+  - `mavar` - [deg]
+- `globalposition`
+  - `lat` - [deg]
+  - `lon` - [deg]
+  - `altmsl` - [ft]
+  - `altagl` - [ft]
+  - `runway` - [runway no.]
+  - `altind` - [ft]
+  - `latnorm`
+  - `lonnorm`
+- `simposition`
+  - `x` - [m]
+  - `y` - [m]
+  - `z` - [m]
+  - `vx` - [m/s]
+  - `vy` - [m/s]
+  - `vz` - [m/s]
+  - `distft` - [ft]
+  - `distnm` - [nm]
 - `enginerpm`
-  - `rpm`
+  - `rpm` - [r/m]
+- `aeroforce`
+  - `lift` - [lb]
+  - `drag` - [lb]
+  - `side` - [lb]
+- `engineforce`
+  - `normal` - [lb]
+  - `axial` - [lb]
+  - `side` - [lb]
+
 
 ### Development
 
