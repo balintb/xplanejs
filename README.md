@@ -121,7 +121,6 @@ The current list of XTypes:
   - `[1..8]` - [deg]
 - `egt`
   - `[1..8]` - [deg]
-  - `8`
 - `cht`
   - `[1..8]` - [deg]
 - `oilpressure`
