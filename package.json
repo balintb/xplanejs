@@ -1,13 +1,11 @@
 {
   "name": "xplane",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "balintb",
   "description": "XPlane data module for Node.js",
   "keywords": ["xplane", "x-plane"],
   "dependencies": {
-    "async": "~0.8.0"
-  },
-  "devDependencies": {
+    "async": "~0.8.0",
     "mocha": "~2.0.1",
     "underscore": "~1.7.0"
   },
@@ -21,6 +19,9 @@
   "main": "lib/xplane.js",
   "engines": { 
     "node": ">= 0.10.0" 
+  },
+ "scripts": {
+    "test": "mocha"
   },
   "license": "MIT"
 }

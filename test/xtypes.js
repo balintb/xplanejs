@@ -28,6 +28,8 @@ describe('XTypes', function() {
       xtype.data.forEach(function(xt) {
         if (xt.type != 'pad') {
           assert.equal(typeof xtypeConversions[xt.type], 'string');
+        } else {
+          assert.equal(typeof xt.length, 'number');
         }
       });
     }
