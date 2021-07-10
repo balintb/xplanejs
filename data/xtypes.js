@@ -340,6 +340,14 @@ var XTypes = {
       { name: '8', type: 'float' }
     ]
   },
+  62: {
+    name: 'fuelweight',
+    data: [
+      { name: '1', type: 'float' },
+      { name: '2', type: 'float' },
+      { name: '3', type: 'float' }
+    ]
+  },
   64: {
     name: 'aeroforce',
     data: [
